@@ -53,6 +53,7 @@ def scrape_product_details(url: str) -> tuple[str | None, list[str], list[str], 
 
 # Example usage:
 if __name__ == "__main__":
+    # sample for American Rag URL
     url = "https://americanrag.ae/collections/carhartt-wip/products/l-s-master-shirt-for-mens-3?variant=44405048606894"  # Replace with the actual URL
     price, available_sizes, out_of_stock_sizes, item_code = scrape_product_details(url)
 
